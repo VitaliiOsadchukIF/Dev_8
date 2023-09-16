@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="383ef5e5-894d-4884-901b-df5755a3393b" name="Changes" comment="add Dev_8">
+    <list default="true" id="383ef5e5-894d-4884-901b-df5755a3393b" name="Changes" comment="update Dev_8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/OsbbCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/OsbbCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/DatabaseMigration.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,11 +97,19 @@
       <option name="project" value="LOCAL" />
       <updated>1694864682244</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="update Dev_8">
+      <created>1694865254488</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1694865254488</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="add Dev_8" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Dev_8" />
+    <MESSAGE value="update Dev_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="update Dev_8" />
   </component>
 </project>
