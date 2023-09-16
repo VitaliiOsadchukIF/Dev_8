@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO">
+    <Appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </Console>
+
+        <File name="OsbbCRUDFile" fileName="logs/osbb-crud.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </File>
+
+        <File name="AppFile" fileName="logs/app.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </File>
+
+        <File name="DataBaseMigrationFile" fileName="logs/database-migration.log">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"/>
+        </File>
+    </Appenders>
+
+    <Loggers>
+        <Logger name="org.example.data.OsbbCRUD" level="info">
+            <AppenderRef ref="OsbbCRUDFile"/>
+        </Logger>
+
+        <Logger name="org.example.App" level="info">
+            <AppenderRef ref="AppFile"/>
+        </Logger>
+
+        <Logger name="org.example.DatabaseMigration" level="info">
+            <AppenderRef ref="DataBaseMigrationFile"/>
+        </Logger>
+
+        <Root level="warn">
+            <AppenderRef ref="Console"/>
+        </Root>
+    </Loggers>
+</Configuration>

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="383ef5e5-894d-4884-901b-df5755a3393b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DatabaseMigration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/Member.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/OsbbCRUD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V10__filling_owner_add_column_email.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V11__update_owner_add_column_parking.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V12__filling_owner_in_column_parking.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V13__add_foreign_key_fk_owner.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V14__filling_the_table_residents.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V15__update_the_table_residents.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V16__filling_the_table_roles.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V17__update_the_table_roles.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V1__init_schema.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V2__filling_the_table_owner.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V3__filling_the_table_apartment.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V4__update_id_n_apartment.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V5__drop_foreign_key_fk_owner.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V6__filling_the_table_owner.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V7__update_owner_property_rights.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V8__update_owner_property_rights.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V9__update_owner_add_column_email.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2VLD1JalogrB1K2YhTlue0gT3w6" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Диск D/java/Dev_8/src/main/resources/flyway/scripts",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Диск D\java\Dev_8\src\main\resources\flyway\scripts" />
+      <recent name="C:\Диск D\java\Dev_8\src\main\resourses" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Диск D\java\Dev_8\src\main\resources\flyway\scripts" />
+      <recent name="C:\Диск D\java\Dev_8\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.App" />
+      <module name="Dev_8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.data.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.App" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="383ef5e5-894d-4884-901b-df5755a3393b" name="Changes" comment="" />
+      <created>1694606253398</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1694606253398</updated>
+    </task>
+    <servers />
+  </component>
+</project>
