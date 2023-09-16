@@ -20,6 +20,7 @@ public class OsbbCRUD implements Closeable {
 
     private static final String sqlMembersWithAutoNotAllowedQuery = "SELECT\n" +
             "    o.name AS owner_name,\n" +
+            "    o.id AS id,\n" +
             "    o.email AS owner_email,\n" +
             "    b.adress AS building_address,\n" +
             "    a.number AS apartment_number,\n" +
@@ -83,7 +84,7 @@ public class OsbbCRUD implements Closeable {
                 result.add(
                         new Member()
                                 .setId(resultSet.getInt("id"))
-                                .setName(resultSet.getString("names")));
+                                .setName(resultSet.getString("owner_name")));
         }
         return result;
     }

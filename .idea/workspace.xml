@@ -4,41 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="383ef5e5-894d-4884-901b-df5755a3393b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Config.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/DatabaseMigration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/data/OsbbCRUD.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V10__filling_owner_add_column_email.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V11__update_owner_add_column_parking.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V12__filling_owner_in_column_parking.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V13__add_foreign_key_fk_owner.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V14__filling_the_table_residents.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V15__update_the_table_residents.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V16__filling_the_table_roles.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V17__update_the_table_roles.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V1__init_schema.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V2__filling_the_table_owner.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V3__filling_the_table_apartment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V4__update_id_n_apartment.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V5__drop_foreign_key_fk_owner.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V6__filling_the_table_owner.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V7__update_owner_property_rights.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V8__update_owner_property_rights.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/flyway/scripts/V9__update_owner_add_column_email.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/log4j2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/AppTest.java" afterDir="false" />
+    <list default="true" id="383ef5e5-894d-4884-901b-df5755a3393b" name="Changes" comment="add Dev_8">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/data/OsbbCRUD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/data/OsbbCRUD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,6 +44,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "last_opened_file_path": "C:/Диск D/java/Dev_8/src/main/resources/flyway/scripts",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
@@ -121,6 +90,18 @@
       <option name="presentableId" value="Default" />
       <updated>1694606253398</updated>
     </task>
+    <task id="LOCAL-00001" summary="add Dev_8">
+      <created>1694864682244</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694864682244</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add Dev_8" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Dev_8" />
   </component>
 </project>
