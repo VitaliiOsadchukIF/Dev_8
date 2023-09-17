@@ -2,7 +2,6 @@ package org.example.data;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.flywaydb.core.Flyway;
 
 import java.io.Closeable;
 import java.io.IOException;
@@ -17,6 +16,8 @@ public class OsbbCRUD implements Closeable {
     private static final Logger logger = LogManager.getLogger(OsbbCRUD.class);
 
     private Connection conn = null;
+
+    private static MigrationDatabase migrationDatabase = new MigrationDatabase();
 
     private static final String sqlMembersWithAutoNotAllowedQuery = "SELECT\n" +
             "    o.name AS owner_name,\n" +
@@ -45,20 +46,20 @@ public class OsbbCRUD implements Closeable {
             "HAVING\n" +
             "    COUNT(a.id) < 2; -- Власники, які мають менше двох квартир у власності";
 
-    private void fmMigration() {
-
-        logger.debug("Flyway migration execute");
-
-        Flyway.configure()
-                .dataSource(jdbcUrl, userNane, password)
-                .locations("classpath:flyway/scripts")
-                .load()
-                .migrate();
-    }
+//    private void fmMigration() {
+//
+//        logger.debug("Flyway migration execute");
+//
+//        Flyway.configure()
+//                .dataSource(jdbcUrl, userNane, password)
+//                .locations("classpath:flyway/scripts")
+//                .load()
+//                .migrate();
+//    }
 
     public OsbbCRUD init() throws SQLException {
         logger.info("Crud has initialized");
-        fmMigration();
+        migrationDatabase.fmMigration();
 
         conn = DriverManager.getConnection(jdbcUrl, userNane, password);
         return this;
